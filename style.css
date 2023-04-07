@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo{
+    height: 40px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    margin-left: 40px;
+    padding: 20px 0px;
+    font-family: Orbitron;
+    font-size: 20px;
+}
+li:first-child{
+    font-weight: 800;
+    text-decoration: underline;
+   
+}
+svg{
+    height: 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 80px;
+}
+.search-button{
+    margin-top: 15px;
+}
+.search{
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    right: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:8px 40px ;
+    font-size: 15px;
+    font-family: Poppins;
+    color: gray;
+}
+.hero{
+    float: left;
+}
+#hero{
+    width: 360px;
+    position: absolute;
+    left: 90px;
+}
+.square{
+    z-index: -1;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+.right-container{
+    float: right;
+}
+.globe{
+    height: 50px;
+    margin-left: -20px;
+}
+.start{
+    height: 40px;
+    margin-left: 550px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-right: 80px;
+    font-family: Orbitron;
+}
+p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 16px; 
+    width: 600px;
+    text-align: center;
+    color: gray;
+}
+.buttons{
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.button{
+    text-decoration:none ;
+    font-family: Orbitron;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: grey;
+    font-weight: 20px;
+    
+}
+.button1{
+    text-decoration: none;
+    font-family: Orbitron;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.p{
+    margin-top: 40px;
+}
+.icons{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.start1{
+    height: 40px;
+}
